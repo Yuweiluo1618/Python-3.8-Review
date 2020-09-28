@@ -13,4 +13,3 @@ for office in offices:
         print(f'{name}')
 
     i += 1
-
