@@ -8,6 +8,7 @@ class Singleton(object):
         return cls.__instance
 
     def __init__(self, a, b):
+        print(Singleton.__isFirst)
         if self.__isFirst:
             self.a = a
             self.b = b
